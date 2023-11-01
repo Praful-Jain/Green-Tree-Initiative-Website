@@ -1,0 +1,282 @@
+.container{
+    background-color: antiquewhite;
+    /*width: 20%;
+    position: absolute;
+    left: 40%;*/
+}
+
+
+.nav-bar{
+    display: grid;
+    padding: 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    /*border: 2px solid black;*/
+}
+.nav-bar > .heading{
+    margin: auto; 
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;   
+}
+.nav-bar > .links {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.nav-bar > .links > a{
+    margin: auto;
+    text-decoration: none;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+} 
+.nav-bar .donate{
+    margin-top: 10%;
+    grid-area: 2 / 1 / 3 / 3;
+    border-radius: 100px;
+    height: 40px;
+    opacity: 1;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    border: none;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-top: 0%;
+    background-image:url('./About_page_images/annie-spratt-427339-unsplash.png');
+    background-position: top;
+    /*border: 2px solid black;*/
+}
+.intro > p{
+    margin-bottom: 100px;
+    width: 40%;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif; 
+    color: #FFFFFF; 
+}
+.intro > h3{
+    align-self: center;
+    color: white;
+    background-color: black;
+    padding: 5%;
+    margin-bottom: -10%;
+    z-index: 1;
+    font: normal normal normal 14px/17px Helvetica;
+    
+}
+.intro > .threats{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 8%;
+}
+.intro > .threats > p{
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 10%;
+    color: white;
+    background-color: #354463;
+    /*border: 2px solid red;*/
+}
+.mission > h3{
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    background-color: white;
+    padding: 5%;
+}
+.mission > p{
+    font: normal normal bold 22px/28px Helvetica;
+}
+.mission > .values{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+}
+.mission > .values h3{
+    font: normal normal bold 16px/20px Helvetica
+}
+.mission > .values p{
+    font: normal normal 300 14px/20px Helvetica;
+}
+
+
+.our-team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 10%;
+    background-color: white;
+    /*border: 2px solid black;*/
+}   
+.our-team > h3{
+    grid-column: span 2;
+    background-color: #354463;
+    color: white;
+    width: 50%;
+    margin-left: 20%;
+    padding: 5%;
+    font: normal normal normal 14px/17px Helvetica;
+}
+.our-team > p{
+    grid-column: span 2;
+    color: #354463;
+}
+.our-team > .a{
+    font: normal normal bold 22px/28px Helvetica;
+}
+.our-team > .b{
+    font: normal normal 300 14px/20px Helvetica;
+}
+.our-team > div > img{
+    width: 70%;
+} 
+
+
+.impact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    background-image: url(./About_page_images/Impact\ Background.png);
+    background-color: #354463;
+    color: white;
+    /*border: 2px solid red;*/
+}
+.impact > h3{
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    background-color: white;
+    padding: 5%;
+}
+.impact > p{
+    font: normal normal bold 22px/28px Helvetica;
+}
+.impact > div{
+    width: 60%;
+}
+.impact > div > p{
+    font: normal normal bold 16px/20px Helvetica;
+}
+
+
+.events{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    text-align: center;
+    background-color: #354463;
+    color: #354463;
+    /*border: 2px solid red;*/
+}
+.events > .slogan{  
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif; 
+    color: white;
+}
+.events > .year{
+    background-color: white;
+    width: 50%;
+    padding: 10px;  
+    margin-bottom: -15px;
+    z-index: 1;
+}
+.events > div{
+    background-color: white;
+    padding: 10%;
+}
+.events > div > img{
+    max-width: 100%;
+    min-width: 20%;
+}
+.events > div > h2{
+    font: normal normal bold 22px/28px Helvetica;
+}
+.events > div > p{
+    font: normal normal 300 14px/20px Helvetica;
+}
+.events > div > .read-more{
+    font: normal normal bold 16px/20px Helvetica;
+    border-radius: 100px;
+    height: 40px;
+    width: 50%;
+    border: none;
+}
+
+
+.subscribe{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10%;
+    align-items: center;
+    text-align: center;
+    color: #354463;
+    /*border: 2px solid black;*/
+}
+.subscribe > h2{
+    grid-column: span 3;
+}
+.subscribe > textarea{
+    grid-column: span 2;
+    background: white 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    border: none;
+}
+.subscribe > button{
+    font: normal normal bold 18px/22px Helvetica;
+    border-radius: 100px;
+    padding: 10px;
+    height: 40px;
+    border: none;
+}
+
+
+.contact-us{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10%;
+    align-items: center;
+    background-color: white;
+    color: #354463;
+    /*border: 2px solid black;*/
+}
+.contact-us > p{
+    font-weight: bold;
+}
+.contact-us a{
+    color: gray;
+}
+.contact-us h3{
+    font-size: small;
+}
+.contact-us h1{
+    align-self: flex-end;
+    grid-area: 3 / 2 / 4 / 3; 
+}

@@ -1,0 +1,100 @@
+.container{
+    background-color: antiquewhite;
+    /*width: 20%;
+    position: absolute;
+    left: 40%;*/
+}
+
+
+.header{
+    padding: 5% 10%;
+    /*border: 2px solid black;*/
+}
+.header > .heading{
+    margin: auto;
+    text-align: center;
+    width: 45%;
+    font: normal normal bold 18px Helvetica;
+    color: #354463;
+
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+    background-image: url(./Donation_page_images/annie-spratt-427340-unsplash.png);
+    color: white;
+    /*border: 2px solid black;*/
+}
+.middle > .heading{
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.middle > .grid-form{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr;  
+    padding: 5%;
+    padding-bottom: 10%;
+    padding-top: 0%;  
+    background-color: #354463;
+}
+.middle > .grid-form input{
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: #C1F7D5 solid;
+    opacity: .5;
+}
+.middle > .grid-form *{  /* altering font of all elements of grid-form*/
+    font: normal normal normal 11px/13px Helvetica;
+    width: 90%;
+}
+.middle > .grid-form > p{
+    grid-column: span 2;
+    margin-top: 15%;
+    font: normal normal bold 22px/28px Helvetica;
+}
+.middle > .grid-form > .pay-btn{
+    grid-column: span 2;
+    margin: auto;
+    border-radius: 100px;
+    height: 4vh;
+    color: #354463;
+    background-color: #C1F7D5;
+    font: normal normal bold 16px/20px Helvetica;
+}
+.middle > .grid-form > a{
+    margin-top: 20%;
+    font-size: large;
+    color: aqua;
+}
+
+
+.contact-us{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10%;
+    align-items: center;
+    background-color: white;
+    /*border: 2px solid black;*/
+}
+.contact-us > p{
+    font-weight: bold;
+}
+.contact-us a{
+    color: gray;
+}
+.contact-us h3{
+    font-size: small;
+}
+.contact-us h1{
+    align-self: flex-end;
+    grid-area: 3 / 2 / 4 / 3; 
+}
