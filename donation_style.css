@@ -8,15 +8,15 @@
 
 .header{
     padding: 5% 10%;
+    background-color: white;
     /*border: 2px solid black;*/
 }
 .header > .heading{
     margin: auto;
     text-align: center;
     width: 45%;
-    font: normal normal bold 18px Helvetica;
+    font: normal normal bold 4.7vw Helvetica;
     color: #354463;
-
 }
 
 
@@ -32,7 +32,7 @@
 .middle > .heading{
     font-family: 'Lobster', sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 8.3vw;
 }
 .middle > .grid-form{
     display: grid;
@@ -51,13 +51,13 @@
     opacity: .5;
 }
 .middle > .grid-form *{  /* altering font of all elements of grid-form*/
-    font: normal normal normal 11px/13px Helvetica;
+    font: normal normal normal 2.87vw/3.4vw Helvetica;
     width: 90%;
 }
 .middle > .grid-form > p{
     grid-column: span 2;
     margin-top: 15%;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 5.74vw/7.31vw Helvetica;
 }
 .middle > .grid-form > .pay-btn{
     grid-column: span 2;
@@ -66,7 +66,7 @@
     height: 4vh;
     color: #354463;
     background-color: #C1F7D5;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 4.18vw/5.22vw Helvetica;
 }
 .middle > .grid-form > a{
     margin-top: 20%;
@@ -83,18 +83,162 @@
     padding: 10%;
     align-items: center;
     background-color: white;
+    color: #354463;
     /*border: 2px solid black;*/
 }
 .contact-us > p{
-    font-weight: bold;
+    font: normal normal bold 4.7vw/5.74vw Helvetica;
 }
-.contact-us a{
-    color: gray;
+.contact-us > div > h3{
+    font: normal normal normal 2.87vw/3.4vw Helvetica;
 }
-.contact-us h3{
-    font-size: small;
+.contact-us > div > p{
+    font: normal normal 300 3.65vw/5.22vw Helvetica;
 }
-.contact-us h1{
+.contact-us > div > a{
+    font: normal normal 300 3.65vw/5.22vw Helvetica;
+    letter-spacing: 4px;
+    color: #354463;
+}
+.contact-us > h1{
     align-self: flex-end;
     grid-area: 3 / 2 / 4 / 3; 
+}
+
+/*Media query for tablet*/
+@media (min-width: 600px) and (max-width:1024px){
+    .header > .heading{
+        font-size: 2.7vw;
+        width: 25%;
+    }
+
+    .middle > .heading{
+        font-size: 5.4vw;
+        width: 60%;
+        text-align: center;
+        margin-top: 0%;
+    }
+    .middle > .grid-form *{
+        font-size: 1.72vw;
+    }
+    .middle > .grid-form > p{
+        font-size: 3.43vw;
+        margin-top: 10%;
+    }
+    .middle > .grid-form > .pay-btn{
+        grid-area: 10 / 2 / 11 / 3;
+        font-size: 2.7vw;
+        height: 150%;
+    }
+    .middle > .grid-form > a{
+        grid-area: 10 / 1 / 11 / 2;
+        margin-top: 5%;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6.17vw;
+    }
+    .contact-us > p{
+        font: normal normal bold 2.71vw/3.45vw Helvetica;
+        width: 25%;
+    }
+    .contact-us > div{
+        width: 25%;
+    }
+    .contact-us > div > h3{
+        font: normal normal normal 1.35vw Helvetica;
+    }
+    .contact-us > div > p{
+        font: normal normal 300 1.72vw Helvetica;
+    }
+    .contact-us > div > a{
+        font: normal normal 300 1.72vw/2.96vw Helvetica;
+        letter-spacing: 3.5px;
+    }
+    .contact-us > h1{
+        font: normal normal normal 5.43vw/5.67vw Flood Std;
+        width: 30%;
+    }
+}
+
+/*Media query for computer*/
+@media (min-width:1025px){
+    .header{
+        padding: 2%;
+    }
+    .header > .heading{
+        font-size: 2vw;
+        width: 15%;
+    }
+
+    .middle{
+        flex-direction: row;
+        gap: 50px;
+    }
+    .middle > .heading{
+        font-size: 5vw;
+        order: 1;
+        align-self: flex-start;
+        width: 44%;
+    }
+    .middle > .grid-form > p{
+        font-size: 2vw;
+        margin-top: 10%;
+        line-height: 1;
+    }
+    .middle > .grid-form > div >p{
+        font-size: 1vw;
+        margin-bottom:-6% ;
+    }       
+    .middle > .grid-form > div > input{
+        font-size: 1.5vw;
+    }
+    .middle > .grid-form > .pay-btn{
+        grid-area: 10 / 2 / 11 / 3;
+        font-size: 1.7vw;
+        height: 100%;
+    }
+    .middle > .grid-form > a{
+        grid-area: 10 / 1 / 11 / 2;
+        margin-top: 5%;
+    }
+
+    .contact-us{
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        gap: 20px;
+    }
+    .contact-us > p{
+        font-size: 1.52vw;
+        line-height: 1;
+        width: 13%;
+        margin-right: 10%;
+    }
+    .contact-us > div > a{
+        font-size: 1vw;
+        line-height: 1;
+    }
+    .contact-us > div > h3{
+        font-size: 1vw;
+        line-height: 1;
+    }
+    .contact-us > div > p{
+        font-size: 1vw;
+        line-height: 1;
+    }
+    .contact-us > .address{
+        width: 15%;
+    }
+    .contact-us > .follow{
+        width: 10%;
+    }
+    .contact-us > h1{
+        font-size: 3vw;
+        width: 20%;
+        margin-left: 10%;
+    }
 }
