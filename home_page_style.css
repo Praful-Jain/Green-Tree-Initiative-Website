@@ -6,6 +6,7 @@
 }
 
 
+/* CSS for MOBLIE having viewport width = 384px */
 .nav-bar{
     display: grid;
     padding: 10%;
@@ -16,32 +17,27 @@
 }
 .nav-bar > .heading{
     margin: auto; 
-    font: normal normal bold 18px/22px Helvetica;
-    letter-spacing: 0px;
+    font: normal normal bold 4.7vw Helvetica;
     color: #354463;
     opacity: 1;   
 }
 .nav-bar > .links {
     display: flex;
-    gap: 5px;
+    gap: 1.3vw;
     flex-direction: column;
 }
 .nav-bar > .links > a{
     margin: auto;
     text-decoration: none;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
+    font: normal normal 300 3.64vw/5.22vw Helvetica;
     color: #354463;
-    opacity: 1;
 } 
 .nav-bar > .donate{
     margin-top: 10%;
     grid-area: 2 / 1 / 3 / 3;
     border-radius: 100px;
-    height: 40px;
-    opacity: 1;
-    font: normal normal bold 18px/22px Helvetica;
-    letter-spacing: 0px;
+    height: 10.41vw;
+    font: normal normal bold 4.7vw/5.74vw Helvetica;
     color: #354463;
     border: none;
 }
@@ -57,62 +53,55 @@
     /*border: 2px solid black;*/
 }
 .intro > p{
-    margin-bottom: 100px;
+    margin-bottom: 26.04vw;
     width: 40%;
     font-weight: bold;
     font-size: xx-large;
     font-family: sans-serif;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
 .intro > h3{
+    font: normal normal normal 3.64vw Helvetica;
     align-self: center;
     color: white;
-    background-color: black;
-    padding: 5%;
+    background-color: #354463;
+    padding: 2%;
 }
 .intro > .a{
-    margin-bottom: -10%;
+    margin-bottom: -8%;
     z-index: 1;
 }
 .intro > .b{
-    margin-bottom: -25%;
+    margin-bottom: -20%;
     z-index: 1;
 }
 .intro > .threats{
     background-color: #FFFFFF;
     text-align: center;
-    padding: 10px;
+    padding: 2.6vw;
 }
 .intro > .threats > p{
-    font: normal normal bold 22px/28px Helvetica;
-    letter-spacing: 0px;
+    font: normal normal bold 5.74vw/7.31vw Helvetica;
     color: #354463;
-    opacity: 1;
 }
 
 
 .take-action{
     display: grid;
-    gap: 10px;
+    gap: 2.6vw;
     padding: 15% 8%;
     grid-template-rows: 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
+    color: #354463;
     /*border: 2px solid black;*/
 }
 .take-action > div > h3{
-    margin-bottom: -8px;
-    font: normal normal bold 18px/22px Helvetica;
-    letter-spacing: 0px;
-    color: #354463;
-    opacity: 1;
+    margin-bottom: -2vw;
+    font: normal normal bold 4.7vw/5.7vw Helvetica;
 }
 .take-action > div > p{
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 3.64vw/5.22vw Helvetica;
     letter-spacing: -0.14px;
-    color: #354463;
-    opacity: 1;
 }
 
 
@@ -126,55 +115,45 @@
     /*border: 2px solid red;*/
 }
 .our-mission > .title{
-    padding: 10px 15px;
+    padding: 4%;
     background-color: white;
-    font: normal normal normal 14px/17px Helvetica;
-    letter-spacing: 0.56px;
+    font: normal normal normal  3.64vw/4.7vw Helvetica;
     color: #354463;
-    opacity: 1;
 }
 .our-mission > .intro-para{
     color: white;
-    font: normal normal bold 22px/28px Helvetica;
-    letter-spacing: 0px;
-    opacity: 1;
+    font: normal normal bold 5.74vw/7.31vw Helvetica;
 }
 .our-mission > div{
     background-color: white;
     padding-bottom: 10%;
-    margin: 40px 5px;
+    margin: 10.41vw 1.3vw;
 }
 .our-mission img{
-    max-width: 80%;
-    max-height: 20%;  
-    margin-top: -20px;  
+    width: 80%;
+    margin-top: -5.2vw;  
 }
 .our-mission .work{
-    font: normal normal bold 18px/22px Helvetica;
-    letter-spacing: 0px;
+    font: normal normal bold 4.7vw/5.74vw Helvetica;
     color: #354463;
-    opacity: 1;
 }
 .our-mission .describe{
-    margin: 30px;
+    margin: 7.81vw;
     margin-top: 0;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
+    font: normal normal 300 3.64vw/5.22vw Helvetica;
     color: #354463;
-    opacity: 1;
 }
 .our-mission .read-more{
-    border-radius: 100px;
-    height: 40px;
+    border-radius: 26.04vw;
+    height: 10.41vw;
     width: 50%;
-    opacity: 1;
     border: none;
 }
 
 
 .impact-on-humanity{
     display: flex;
-    gap: 20px;
+    gap: 5.2vw;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -187,7 +166,7 @@
     align-self: flex-start;
     text-align: left;
     font-family: 'Lobster', sans-serif;
-    color: black;
+    color: white;
     width: 60%;
     font-size: 200%;
     font-weight: bold;
@@ -196,19 +175,18 @@
     align-self: flex-start;
     color: #354463;
     background-color: #C1F7D5;
-    height: 40px;
+    height: 10.41vw;
     width: 50%;
-    border-radius: 100px;
-    font: normal normal bold 16px/20px Helvetica;
-    letter-spacing: 0px;
-    opacity: 1;
+    border-radius: 26.04vw;
+    font: normal normal bold 4.18vw/5.22vw Helvetica;
     border: none;
 }
 .impact-on-humanity > h3{
-    background-color: black;
+    background-color: #354463;
     color: white;
-    margin-bottom: -40px;
-    padding: 10px;
+    font: normal normal normal 3.64vw Helvetica;
+    margin-bottom: -10.41vw;
+    padding: 2.6vw;
     z-index: 1;
 }
 .impact-on-humanity > .impacts{
@@ -216,32 +194,27 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: white; 
-   
     padding: 5%;
     padding-top: 8%;
 }
 .impact-on-humanity > .impacts > h3{
     grid-area: 1/1/2/3;
-    font: normal normal bold 22px/28px Helvetica;
-    letter-spacing: 0px;
+    font: normal normal bold 5.74vw/7.31vw Helvetica;
     color: #354463;
-    opacity: 1;
-    margin: 0px;
+    margin: 0;
 }
 .impact-on-humanity > .impacts > p{
     grid-area: 2 / 1 / 3 / 3;
-    font: normal normal 300 14px/20px Helvetica;
-    letter-spacing: -0.14px;
+    font: normal normal 300 3.64vw/5.22vw Helvetica;
     color: #354463;
-    opacity: 1;
-    margin-top: -10px;
+    margin-top: -2.6vw;
 }
 
 
 .stories{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 7.81vw;
     padding: 10%;
     align-items: center;
     text-align: center;
@@ -249,11 +222,12 @@
     /*border: 2px solid black;*/
 }
 .stories > h3{
-    background-color: black;
+    font: normal normal normal 3.64vw Helvetica;
+    background-color: #354463;
     color: white;
     width: 50%;
-    padding: 10px;   
-    margin-bottom: -40px;
+    padding: 2.6vw;   
+    margin-bottom: -10.41vw;
     z-index: 1;
 }
 .stories > img{
@@ -261,16 +235,17 @@
     max-height: 20%;  
 }
 .stories > div{
+    font: normal normal bold 22px/28px Helvetica;
     background: #354463 0% 0% no-repeat padding-box;
     color: white;
     padding: 5%;
 }
 .stories > .read-more{
-    border-radius: 100px;
-    height: 40px;
+    border-radius: 26.04vw;
+    height: 10.41vw;
     width: 50%;
     border: none;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 4.18vw/5.22vw Helvetica;
 }
 
 
@@ -291,33 +266,34 @@
     font-weight: bold;
 }
 .events > h3{
+    font: normal normal normal 3.64vw Helvetica;
     background-color: white;
     color: black;
     width: 50%;
-    padding: 10px;  
-    margin-bottom: -15px;
+    padding: 2.6vw;  
+    margin-bottom: -3.9vw;
     z-index: 1;
 }
 .events > div{
     margin-bottom: 10%;
 }
 .events > div > img{
-    max-width: 100%;
-    min-width: 20%;
-    opacity: 1;
+    width: 90%;
 }
 .events > div > h2{
-    font: normal normal bold 22px/28px Helvetica;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    font: normal normal bold 5.74vw/7.31vw Helvetica;
+    color: #FFFFFF; 
+}
+.events > div > p{
+    font: normal normal 300 3.64vw/5.22vw Helvetica;;
+    line-height: 1.5;
 }
 .events > div > .read-more{
-    border-radius: 100px;
-    height: 40px;
+    border-radius: 26.04vw;
+    height: 10.41vw;
     width: 50%;
     border: none;
-    font: normal normal bold 16px/20px Helvetica;
+    font: normal normal bold 4.18vw/5.22vw Helvetica;
 }
 
 
@@ -325,7 +301,7 @@
     display: grid;
     grid-template-rows: 2fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 2.6vw;
     padding: 10%;
     align-items: center;
     text-align: center;
@@ -334,18 +310,20 @@
 }
 .subscribe > h2{
     grid-column: span 3;
+    font: normal normal bold 28px/36px Helvetica;
 }
 .subscribe > textarea{
     grid-column: span 2;
     background: white 0% 0% no-repeat padding-box;
     border-radius: 100px;
     border: none;
+    text-align: center;
 }
 .subscribe > button{
-    font: normal normal bold 18px/22px Helvetica;
-    border-radius: 100px;
-    padding: 10px;
-    height: 40px;
+    font: normal normal bold 4.7vw/5.7vw Helvetica;
+    border-radius: 26.04vw;
+    padding: 2.6vw;
+    height: 10.41vw;
     border: none;
 }
 
@@ -362,15 +340,646 @@
     /*border: 2px solid black;*/
 }
 .contact-us > p{
-    font-weight: bold;
+    font: normal normal bold 4.7vw/5.74vw Helvetica;
 }
-.contact-us a{
-    color: gray;
+.contact-us > div > h3{
+    font: normal normal normal 2.87vw/3.4vw Helvetica;
 }
-.contact-us h3{
-    font-size: small;
+.contact-us > div > p{
+    font: normal normal 300 3.65vw/5.22vw Helvetica;
 }
-.contact-us h1{
+.contact-us > div > a{
+    font: normal normal 300 3.65vw/5.22vw Helvetica;
+    letter-spacing: 4px;
+}
+.contact-us > h1{
     align-self: flex-end;
     grid-area: 3 / 2 / 4 / 3; 
+}
+
+
+
+/*Media query for tablet having viewport width 810px*/
+@media (min-width: 600px) and (max-width:1024px){
+    .nav-bar{   
+        padding: 2.5% 7%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+    .nav-bar > .heading{
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 2.8vw;
+        justify-self:  start;
+        margin: 0;
+        width: 30%;
+    }
+    .nav-bar > .links{
+        flex-direction: row;
+        grid-area: 2 / 1 / 3 / 2;
+        width: 60%;
+    }
+    .nav-bar > .links > a{
+        font-size: 1.97vw;
+    }
+    .nav-bar > .donate{
+        grid-area: 1 / 2 / 2 / 3;
+        font-size: 2.22vw;
+        height: 50%;
+        align-self: flex-end;
+    }
+
+    .intro{
+        padding: 8%;
+        padding-bottom: 15%;
+    }
+    .intro > p{
+        font-size: 5.43vw;
+        margin-bottom: 10%;
+    }
+    .intro > .a{
+        font-size: 1.72vw;
+        align-self: flex-start;
+        margin-bottom: -3%;
+        margin-left: 10%;
+    }
+    .intro > .b{
+        font-size: 1.72vw;
+        margin-bottom: -20%;
+    }
+    .intro > .threats{
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    .intro > .threats > p{
+        font-size: 4.45vw;
+        line-height: 1.5;
+    }
+
+    .take-action{
+        padding: 5% 8%;
+        column-gap: 15%;
+    }
+    .take-action > div{
+        width: 70%;
+    }
+    .take-action > div > h3{
+        font-size: 2.71vw;
+    }
+    .take-action > div > p{
+        font-size: 1.97vw;
+        line-height: 1.5;
+    }
+
+    .our-mission{
+        align-items: flex-start;
+        text-align: left;
+        padding: 5% 8%;
+    }
+    .our-mission > .title{
+        font-size: 1.72vw;
+        padding: 2%;
+        line-height: 1;
+    }
+    .our-mission > .intro-para{
+        font-size: 4.45vw;
+        line-height: 1.5;
+    }
+    .our-mission > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 5%;
+        padding-bottom: 0;
+        padding-right: 10%;
+        row-gap: 5%;
+        margin-top: 3%;
+    }
+    .our-mission > div > img{
+        margin: auto;
+        margin-top: -20%;
+        width: 35.55vw;
+        height: 24.8vw;
+    }
+    .our-mission > div > .work{
+        font-size: 2.71vw;
+        width: 60%;
+        line-height: 1;
+        margin-left: 22%;
+    }
+    .our-mission > div > .describe{
+        grid-area: 2 / 2 / 3 / 3;
+        font-size: 1.97vw;
+        line-height: 1.5;
+        margin-top: -30%;
+        width: 90%;
+    }
+    .our-mission >div > .read-more{
+        font-size: 2.22vw;
+        height: 30%;
+        justify-self: end;
+    }
+
+    .impact-on-humanity{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
+        padding: 0% 8%;
+        padding-bottom: 5%;
+    }
+    .impact-on-humanity > .title{
+        font-size: 5.43vw;
+        grid-area: 1 / 1 / 3 / 2;
+        margin-top: 35%;
+    }
+    .impact-on-humanity > .btn-action{
+        font-size: 2.22vw;
+        width: 100%;
+        height: 30%;
+        grid-area: 3 / 1 / 4 / 2;
+        align-self: flex-start;
+    }
+    .impact-on-humanity > h3{
+        font-size: 1.72vw;
+        grid-area: 1 / 2 / 2 / 3;
+        width: 40%;
+    }
+    .impact-on-humanity > .impacts{
+        margin-top: -10%;
+    }
+    .impact-on-humanity > .impacts > h3{
+        font-size: 4.45vw;
+        line-height:2.5;
+    }
+    .impact-on-humanity > .impacts > p{
+        font-size: 1.97vw;
+        line-height: 1.5;
+    }
+    .impact-on-humanity > .a{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .impact-on-humanity > .b{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .impact-on-humanity > .c{
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    .impact-on-humanity > .d{
+        grid-area: 5 / 2 / 6 / 3;
+    }
+    
+
+    .stories{
+        align-items: flex-start;
+        padding: 8%;
+    }
+    .stories > h3{
+        font-size: 1.72vw;
+        width: 15%;
+        padding: 2%;
+        margin-left: 10%;
+    }
+    .stories > img{
+        align-self: flex-start;
+        width: 80%;
+    }
+    .stories > div{
+        align-self: flex-end;
+        width: 70%;
+        padding: 5%;
+        margin-top: -20%;
+    }
+    .stories > .read-more{
+        font-size: 2.22vw;
+        height: 30%;    
+        width: 30%;
+        margin: auto;
+    }
+
+    .events{
+        padding: 4% 8%;
+        padding-right: 0;
+    }
+    .events > .slogan{
+        font-size: 5.43vw;
+        width: 70%;
+        align-self: flex-start;
+    }
+    .events > .heading{
+        font-size: 1.72vw;
+        width: 15%;
+        padding: 2%;
+        margin-bottom: -6.5%;
+    }
+    .events > div{
+        display: grid;
+        grid-template-columns: 1f 1f;
+        grid-template-rows: .5f 1f 2f .5f;
+        column-gap: 40px;
+        text-align: left;
+        padding: 0%;
+        padding-right: 0%;
+    }
+    .events > div > img{
+        grid-area: 1 / 1 / 3 / 2 ;
+    }
+    .events > div > h2{
+        font-size: 3.45vw;
+        grid-area: 2 / 2 / 3 / 3;
+        line-height: 1;
+        padding: 0;
+        width: 70%;
+        margin-top: -40%;
+    }
+    .events > div > .earth{
+        margin-top: -30%;
+    }
+    .events > div > p{
+        font-size: 1.97vw;
+        grid-area: 3 / 2 / 4 / 3;
+        margin-top: -15%;
+        width: 80%;
+    }
+    .events > div > .read-more{
+        grid-area: 4 / 2 / 5 / 3;
+        font-size: 2.22vw;
+        height: 85%;    
+        width: 30%;
+    }
+
+    .subscribe{
+        grid-template-rows: 1fr 1fr;
+        align-items: flex-start;
+        text-align: left;
+        padding: 4% 8%;
+    }
+    .subscribe > h2{
+        font-size: 2.71vw;
+        width: 80%;
+    }
+    .subscribe > button{
+        font-size: 2.22vw;
+        padding: 0%;
+        width: 70%;
+        height: 40%;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6.17vw;
+    }
+    .contact-us > p{
+        font: normal normal bold 2.71vw/3.45vw Helvetica;
+        width: 25%;
+    }
+    .contact-us > div{
+        width: 25%;
+    }
+    .contact-us > div > h3{
+        font: normal normal normal 1.35vw Helvetica;
+    }
+    .contact-us > div > p{
+        font: normal normal 300 1.72vw Helvetica;
+    }
+    .contact-us > div > a{
+        font: normal normal 300 1.72vw/2.96vw Helvetica;
+        letter-spacing: 3.5px;
+    }
+    .contact-us > h1{
+        font: normal normal normal 5.43vw/5.67vw Flood Std;
+        width: 30%;
+    }
+}
+
+
+/*Media query for computer*/
+@media (min-width:1025px){
+    .nav-bar{
+        display: flex;
+        justify-content: flex-start;
+        padding: 2% 0%;
+    }
+    .nav-bar > .heading{
+        font-size: 1.52vw;
+        width: 10%;
+    }
+    .nav-bar > .links{
+        gap: 80px;
+        flex-direction: row;
+    }
+    .nav-bar > .links > a{
+        font-size: 1.11vw;
+    }
+    .nav-bar > .donate{
+        font-size: 1.25vw;
+        width: 15%;
+        height: 5%;
+        margin: auto;
+    }
+
+    .intro{
+        flex-direction: row;
+        padding: 0% 8%;
+        padding-left: 0;
+        margin: 0;
+    }
+    .intro > p{
+        font-size: 5vw;
+        order: 2;
+    }
+    .intro > h3{
+        font-size: 1vw;
+        width: 30%;
+        padding: 1%;
+    }
+    .intro > .a{
+        align-self: flex-start;
+        margin-top:13%;
+        position: relative;
+        left: 15%; 
+    }
+    .intro > .b{
+        margin-top: 35%;
+        position: relative;
+        right: 15%;
+    }
+    .intro > .threats{
+        margin: auto;
+        margin-top: 15%;
+        width: 150%;
+        padding-top:1%;
+    }
+    .intro > .threats > p{
+        font-size: 3vw;
+        line-height: 1.5;
+        width: 90%;
+        text-align: left;
+    }
+
+    .take-action{
+        display: flex;
+        margin: 0;
+        padding: 4% 8%;
+    }
+    .take-action > div > h3{
+        font-size: 2vw;
+    }
+    .take-action > div > p{
+        font-size: 1.11vw;
+        line-height: 1;
+        width: 85%;
+    }
+
+    .our-mission{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .5fr .5fr 3fr;
+        text-align: left;
+        padding: 5% 8%;
+    }
+    .our-mission > .title{
+        font-size: 1vw;
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 0;
+        width: 40%;
+        text-align: center;
+    }
+    .our-mission > .intro-para{
+        font-size: 3vw;
+        line-height: 1;
+        grid-area: 2 / 1 / 3 / 4;
+        margin: 0;
+        margin-top: 2%;
+    }
+    .our-mission > div{
+        padding: 5%;
+        margin-bottom: 0;
+    }
+    .our-mission > div > img{
+        width: 22.22vw;
+        height: 15.55vw;
+    }
+    .our-mission > div > .work{
+        font-size: 2vw;
+        line-height: 1;
+        width: 60%;
+    }
+    .our-mission > div > .describe{
+        font-size: 1.11vw;
+        line-height: 1.5;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .our-mission > div > .read-more{
+        font-size: 1.25vw;
+        height: 3vw;
+        margin: auto;
+    }
+    .our-mission > .x{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .our-mission > .y{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .our-mission > .z{
+        grid-area: 3 / 3 / 4 / 4;
+    }
+
+    .impact-on-humanity{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 100px;
+        padding: 0% 8%;
+    }
+    .impact-on-humanity > .title{
+        font-size: 5.43vw;
+        grid-area: 1 / 1 / 3 / 2;
+        width: 130%;
+    }
+    .impact-on-humanity > .btn-action{
+        font-size: 1.25vw;
+        width: 60%;
+        height: 25%;
+        grid-area: 3 / 1 / 4 / 2;
+        margin-top: -80%;
+    }
+    .impact-on-humanity > h3{
+        font-size: 1vw;
+        grid-area: 1 / 2 / 2 / 3;
+        width: 20%;
+        padding: 2%;
+    }
+    .impact-on-humanity > .impacts{
+        text-align: left;
+        width: 80%;
+        height: 40%;
+        padding-right: 0;
+        position: relative;
+        top: -40%;
+    }
+    .impact-on-humanity > .impacts > h3{
+        margin-top: -8%;
+        margin-bottom: 5%;
+        font-size: 3vw;
+        line-height:2.5;
+    }
+    .impact-on-humanity > .impacts > p{
+        font-size: 1.25vw;
+        line-height: 1.5;
+        margin-right: 10%;
+    }
+    .impact-on-humanity > .a{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .impact-on-humanity > .b{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .impact-on-humanity > .c{
+        grid-area: 4 / 2 / 5 / 3;
+    }
+    .impact-on-humanity > .d{
+        grid-area: 5 / 2 / 6 / 3;
+    }
+
+
+    .stories{
+        flex-direction: row;
+        padding: 4% 8%;
+    }
+    .stories > h3{
+        position: absolute;
+        font-size: 1vw;
+        padding: 1%;
+        width: 10%;
+        align-self: flex-start;
+        margin: auto;
+    }
+    .stories > img{
+       order: 2;
+    }
+    .stories > div > p{
+        font-size: 2vw;
+        margin: auto;
+        line-height: 1.3;
+    }
+    .stories > .read-more{
+        display: none;
+    }
+    
+    .events{
+        padding: 1% 8%;
+        padding-right: 0;
+    }
+    .events > .slogan{
+        font-size: 5vw;
+        width: 50%;
+        align-self: flex-start;
+    }
+    .events > .heading{
+        font-size: 1vw;
+        width: 10%;
+        padding: 1%;
+    }
+    .events > div{
+        display: grid;
+        grid-template-columns: 1f 1f;
+        grid-template-rows: .5f 1f 2f .5f;
+        column-gap: 40px;
+        text-align: left;
+        padding: 0%;
+        padding-right: 0%;
+    }
+    .events > div > img{
+        grid-area: 1 / 1 / 3 / 2 ;
+        width: 40vw;
+        height: 35vw;
+    }
+    .events > div > h2{
+        font-size: 3vw;
+        grid-area: 2 / 2 / 3 / 3;
+        line-height: 1;
+        padding: 0;
+        width: 70%;
+        margin-top: -60%;
+    }
+    .events > div > p{
+        font-size: 1.52vw;
+        grid-area: 3 / 2 / 4 / 3;
+        margin-top: -35%;
+        width: 80%;
+    }
+    .events > div > .earth{
+        margin-top: -60%;
+    }
+    .events > div > .earth-para{
+        margin-top: -45%;
+    }
+    .events > div > .read-more{
+        grid-area: 4 / 2 / 5 / 3;
+        font-size: 1.25vw;
+        height: 4vw;    
+        width: 25%;
+        margin-top: -10%;
+    }
+
+    .subscribe{
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+        padding: 3% 2%;
+    }
+    .subscribe > h2{
+        font-size: 2vw;
+        width: 45%;
+    }
+    .subscribe > textarea{
+        width: 25vw;
+    }
+    .subscribe > button{
+        font-size: 1.5vw;
+        padding: 0%;
+        width: 10vw;
+        height: 5vw;
+        margin: 0%;
+    }
+
+    .contact-us{
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        gap: 20px;
+    }
+    .contact-us > p{
+        font-size: 1.52vw;
+        line-height: 1;
+        width: 13%;
+        margin-right: 10%;
+    }
+    .contact-us > div > a{
+        font-size: 1vw;
+        line-height: 1;
+    }
+    .contact-us > div > h3{
+        font-size: 1vw;
+        line-height: 1;
+    }
+    .contact-us > div > p{
+        font-size: 1vw;
+        line-height: 1.5;
+    }
+    .contact-us > .address{
+        width: 15%;
+    }
+    .contact-us > .follow{
+        width: 10%;
+    }
+    .contact-us > h1{
+        font-size: 3vw;
+        width: 20%;
+        margin-left: 10%;
+    }
 }
