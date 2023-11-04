@@ -297,13 +297,14 @@
         margin: 0;
         width: 30%;
     }
-    .nav-bar > .links{
+     .nav-bar > .links{
         flex-direction: row;
         grid-area: 2 / 1 / 3 / 2;
-        width: 60%;
+        width: 85%;
     }
     .nav-bar > .links > a{
         font-size: 1.97vw;
+        margin-left: 0;
     }
     .nav-bar > .donate{
         grid-area: 1 / 2 / 2 / 3;
